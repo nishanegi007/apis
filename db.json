@@ -1,5 +1,6 @@
-
-    {
+{
+  "dashboard": [
+  {
         id: 1,
         date: '23/05/2020',
         rno: 'ABC13456',
@@ -79,4 +80,15 @@
         balance: '$32.30',
         paragraph: 'Lorem ipsum',
     }
-
+  ] ,
+  "payments":[
+  
+      { "id": 1, "payment_gateway_id": "12454545",  "due_amount" : "124" , "e_check": "530" , "credit_card" : "20" ,  "credit" : "10" ,  "payment_status" : "processing" , "date": "2020-12-11"},
+      { "id": 2, "payment_gateway_id": "353253253",  "due_amount" : "123" , "e_check": "234" , "credit_card" : "10" ,  "credit" : "5" ,  "payment_status" : "pending" , "date": "2020-12-11"},
+      { "id": 3, "payment_gateway_id": "3252353",  "due_amount" : "132" , "e_check": "433" , "credit_card" : "25" ,  "credit" : "8" ,  "payment_status" : "complete" , "date": "2020-12-11"},
+      { "id": 4, "payment_gateway_id": "325323",  "due_amount" : "143" , "e_check": "443" , "credit_card" : "40" ,  "credit" : "7" ,  "payment_status" : "processing" , "date": "2020-12-11"}
+  
+  ]
+  
+  
+}
